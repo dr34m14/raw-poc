@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
+  <rect width="400" height="200" fill="black"/>
+  <text x="20" y="40" fill="white">HTML Injection via SVG</text>
+
+  <foreignObject x="20" y="60" width="360" height="120">
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <div style="color:white;">
+        <h3>PoC Form hacked</h3>
+        
+      </div>
+    </body>
+  </foreignObject>
+</svg>
